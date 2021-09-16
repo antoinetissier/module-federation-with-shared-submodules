@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "clean-install": "yarn --check-files",
+    "start": "lerna run --parallel start",
+    "build": "lerna run build",
+    "serve": "lerna run --parallel serve",
+    "clean": "lerna run --parallel clean"
+  },
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2",
+      "shared-library"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}

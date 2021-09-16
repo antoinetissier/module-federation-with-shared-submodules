@@ -1,0 +1,12 @@
+{
+  "name": "@shared-context/shared-library",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "react": "^16.13.0"
+  }
+}
