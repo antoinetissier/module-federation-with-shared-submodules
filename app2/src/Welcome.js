@@ -1,4 +1,4 @@
-import { NameContext } from "@shared-context/shared-library/src/context/NameContext";
+import { NameContext } from "@shared-context/shared-library";
 import React from "react";
 
 const Welcome = () => {
