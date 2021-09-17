@@ -41,8 +41,8 @@ module.exports = {
         "react",
         "react-dom",
         {
-          "@shared-context/shared-library": {
-            import: "@shared-context/shared-library",
+          "@shared-context/shared-library/src/context/NameContext": {
+            import: "@shared-context/shared-library/src/context/NameContext",
             requiredVersion: require("../shared-library/package.json").version,
           },
         },
